@@ -1,0 +1,89 @@
+.nav-wrapper {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(0, 89, 255);
+}
+
+#logo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.me {
+    width: 225px;
+    float: left; 
+    margin-right: 15px;
+}
+
+.icon {
+    width: 50px;
+    margin-top: 20px;
+}
+
+.icon { transition: all .2s ease-in-out; }
+.icon:hover { transform: scale(1.1); }
+
+.iconBox {
+    text-align: center;
+}
+
+.imgBox {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.ega {
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img1 {
+    width: 60px;
+}
+
+.name {
+    font-size: 55px;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: -9px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.span {
+    display: inline-block;
+}
+
+.mainIntro {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+
+.container {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+.mission {
+    font-size: 16px;
+}
+
+.info {
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+#btn {
+    color: black;
+}
