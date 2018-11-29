@@ -1,3 +1,15 @@
+.collapsible {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.collapsible-body {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+
 .nav-wrapper {
     font-family: 'Quicksand', sans-serif;
     background-color: rgb(0, 89, 255);
