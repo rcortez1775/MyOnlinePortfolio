@@ -15,64 +15,6 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo" id="logo">Robert Cortez</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-                <li>
-                    <a class="dropdown-trigger" href="#!" data-target="myMenudropdown">Menu
-                        <i class="material-icons right">menu</i>
-                    </a>
-                </li>
-            </ul>
-            <ul id="myMenudropdown" class="dropdown-content">
-                <li>
-                    <a href="index.html" id="btn">
-                        <i class="material-icons prefix"></i>Home</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <a href="aboutMe.html" id="btn">
-                        <i class="material-icons prefix"></i>About Me</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <a href="myWork.html" id="btn">
-                        <i class="material-icons prefix"></i>My Work</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <a href="vlog.html" id="btn">
-                        <i class="material-icons prefix"></i>Vlog</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <ul class="sidenav" id="mobile-demo">
-        <li>
-            <a href="index.html">
-                <i class="material-icons prefix">home</i>Home</a>
-        </li>
-        <li class="divider"></li>
-        <li>
-            <a href="aboutMe.html">
-                <i class="material-icons prefix">account_circle</i>About Me</a>
-        </li>
-        <li class="divider"></li>
-        <li>
-            <a href="myWork.html">
-                <i class="material-icons prefix">laptop_mac</i>My Work</a>
-        </li>
-        <li class="divider"></li>
-        <li>
-            <a href="vlog.html">
-                <i class="material-icons prefix">movie</i>Vlog</a>
-        </li>
-    </ul>
-
     <div class="parallax-container">
         <div class="parallax">
             <img src="images/blueSky.jpg">
@@ -104,11 +46,23 @@
                         <img src="./images/Facebook.png" class="icon"> </a>
                 </div>
                 <h3>Full-Stack Developer</h3>
-                <p>Long Beach, CA 90802</p>  
+                <p>Long Beach, CA 90802</p>
         </div>
     </div>
 
-    
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="aboutMe.html">About Me</a>
+            <a href="myWork.html">Experience</a>
+            <a href="vlog.html">Vlog</a>
+        </div>
+    </div>
+    <div class="menu">
+        <div onclick="openNav()"><i class="material-icons">menu</i></div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>

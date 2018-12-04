@@ -15,65 +15,6 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo" id="logo">Robert Cortez</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-                <li>
-                    <a class="dropdown-trigger" href="#!" data-target="myMenudropdown">Menu
-                        <i class="material-icons right">menu</i>
-                    </a>
-                </li>
-            </ul>
-            <ul id="myMenudropdown" class="dropdown-content">
-                <li>
-                    <a href="index.html" id="btn">
-                        <i class="material-icons prefix"></i>Home</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <a href="aboutMe.html" id="btn">
-                        <i class="material-icons prefix"></i>About Me</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <a href="myWork.html" id="btn">
-                        <i class="material-icons prefix"></i>My Work</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <a href="vlog.html" id="btn">
-                        <i class="material-icons prefix"></i>Vlog</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <ul class="sidenav" id="mobile-demo">
-        <li>
-            <a href="index.html">
-                <i class="material-icons prefix">home</i>Home</a>
-        </li>
-        <li class="divider"></li>
-        <li>
-            <a href="aboutMe.html">
-                <i class="material-icons prefix">account_circle</i>About Me</a>
-        </li>
-        <li class="divider"></li>
-        <li>
-            <a href="myWork.html">
-                <i class="material-icons prefix">laptop_mac</i>My Work</a>
-        </li>
-        <li class="divider"></li>
-        <li>
-            <a href="vlog.html">
-                <i class="material-icons prefix">movie</i>Vlog</a>
-        </li>
-    </ul>
-
-
     <div class="parallax-container">
         <div class="parallax">
             <img src="images/blueSky.jpg">
@@ -85,21 +26,32 @@
                 <img src="images/robert.jpg" class="me">
             </div>
             <div>
-                <p class="grey-text text-darken-3 lighten-3">I'm Robert Cortez. Fellow Coder and United States Marine Corps Veteran. After working within a tech start-up
-                    in sales and operations, I've wanted to understand the "behind the scenes" of tech. That pushed me to
-                    complete free online courses but left me wanting a better grasp of these high level concepts. I wanted
-                    a more suited environment of like minded individuals to learn by creation. That's when I began my bootcamp
+                <p class="grey-text text-darken-3 lighten-3">I'm Robert Cortez. Fellow Coder and United States Marine
+                    Corps Veteran. After working within a tech start-up
+                    in sales and operations, I've wanted to understand the "behind the scenes" of tech. That pushed me
+                    to
+                    complete free online courses but left me wanting a better grasp of these high level concepts. I
+                    wanted
+                    a more suited environment of like minded individuals to learn by creation. That's when I began my
+                    bootcamp
                     search.
                 </p>
-                <p class="grey-text text-darken-3 lighten-3">Fast forward a year, I completed the Coding Bootcamp at the University of California Irvine. A challenging
-                    coding course that demanded constant self-education to push the boundaries of what I knew on any given
-                    day. Working in teams and led by amazing instructors, I was able to gain a deeper understanding of development
-                    and create some pretty awesome projects. Though my knowledge is a tiny seed buried deep beneath the many
+                <p class="grey-text text-darken-3 lighten-3">Fast forward a year, I completed the Coding Bootcamp at
+                    the University of California Irvine. A challenging
+                    coding course that demanded constant self-education to push the boundaries of what I knew on any
+                    given
+                    day. Working in teams and led by amazing instructors, I was able to gain a deeper understanding of
+                    development
+                    and create some pretty awesome projects. Though my knowledge is a tiny seed buried deep beneath the
+                    many
                     layers of information, with constant nurturing, it will soon sprout.
                 </p>
-                <p class="grey-text text-darken-3 lighten-3">Away from the computer, I enjoy playing with my recently rescued dog, Boba Fett and capturing the objective
-                    in Overwatch or attempting to pilot a helicopter in Call of Duty. If you can't find me online I may be
-                    out on the water kayaking or lifting weights to fit in with the cool kids. I am very excited to pursue
+                <p class="grey-text text-darken-3 lighten-3">Away from the computer, I enjoy playing with my recently
+                    rescued dog, Boba Fett and capturing the objective
+                    in Overwatch or attempting to pilot a helicopter in Call of Duty. If you can't find me online I may
+                    be
+                    out on the water kayaking or lifting weights to fit in with the cool kids. I am very excited to
+                    pursue
                     development and I look forward to all the things I can build and learn from.
                 </p>
             </div>
@@ -125,6 +77,19 @@
                 <h3>Full-Stack Developer</h3>
                 <p>Long Beach, CA 90802</p>
         </div>
+    </div>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="aboutMe.html">About Me</a>
+            <a href="myWork.html">Experience</a>
+            <a href="vlog.html">Vlog</a>
+        </div>
+    </div>
+    <div class="menu">
+        <div onclick="openNav()"><i class="material-icons">menu</i></div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

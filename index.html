@@ -9,84 +9,29 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo" id="logo">Robert Cortez</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-                <li>
-                    <a class="dropdown-trigger" href="#!" data-target="myMenudropdown">Menu
-                        <i class="material-icons right">menu</i>
-                    </a>
-                </li>
-            </ul>
-            <ul id="myMenudropdown" class="dropdown-content">
-                <li>
-                    <a href="index.html" id="btn">
-                        <i class="material-icons prefix"></i>Home</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <a href="aboutMe.html" id="btn">
-                        <i class="material-icons prefix"></i>About Me</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <a href="myWork.html" id="btn">
-                        <i class="material-icons prefix"></i>My Work</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <a href="vlog.html" id="btn">
-                        <i class="material-icons prefix"></i>Vlog</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <ul class="sidenav" id="mobile-demo">
-        <li>
-            <a href="index.html">
-                <i class="material-icons prefix">home</i>Home</a>
-        </li>
-        <li class="divider"></li>
-        <li>
-            <a href="aboutMe.html">
-                <i class="material-icons prefix">account_circle</i>About Me</a>
-        </li>
-        <li class="divider"></li>
-        <li>
-            <a href="myWork.html">
-                <i class="material-icons prefix">laptop_mac</i>My Work</a>
-        </li>
-        <li class="divider"></li>
-        <li>
-            <a href="vlog.html">
-                <i class="material-icons prefix">movie</i>Vlog</a>
-        </li>
-    </ul>
-
     <div class="parallax-container">
         <div class="parallax">
             <img src="images/blueSky.jpg">
         </div>
         <div class="mainIntro">
-            <h1>Robert Cortez</h1>
+            <h1>ROBERT CORTEZ</h1>
             <img src="images/me.jpg" class="me">
         </div>
     </div>
     <div class="section white">
         <div class="row container">
-            <p class="grey-text text-darken-3 lighten-3">With 3+ years of sales/operations management within a tech start-up, I am now looking for an exciting career
-                change into the software/web development world. In my past roles, I was able to be a part of an idea that
-                became a lifestyle brand utilizing technology. Having sold the value and framed the execution of field operations
+            <p class="grey-text text-darken-3 lighten-3">With 3+ years of sales/operations management within a tech
+                start-up, I am now looking for an exciting career
+                change into the software/web development world. In my past roles, I was able to be a part of an idea
+                that
+                became a lifestyle brand utilizing technology. Having sold the value and framed the execution of field
+                operations
                 in Los Angeles, I now turn my sights to the brains of that growth.</p>
         </div>
     </div>
@@ -110,6 +55,19 @@
                 <p>Long Beach, CA 90802</p>
         </div>
     </div>
+
+    <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="aboutMe.html">About Me</a>
+                <a href="myWork.html">Experience</a>
+                <a href="vlog.html">Vlog</a>
+            </div>
+        </div>
+        <div class="menu">
+            <div onclick="openNav()"><i class="material-icons">menu</i></div>
+        </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>

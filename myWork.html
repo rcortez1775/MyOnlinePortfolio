@@ -15,64 +15,6 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo" id="logo">Robert Cortez</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-                <li>
-                    <a class="dropdown-trigger" href="#!" data-target="myMenudropdown">Menu
-                        <i class="material-icons right">menu</i>
-                    </a>
-                </li>
-            </ul>
-            <ul id="myMenudropdown" class="dropdown-content">
-                <li>
-                    <a href="index.html" id="btn">
-                        <i class="material-icons prefix"></i>Home</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <a href="aboutMe.html" id="btn">
-                        <i class="material-icons prefix"></i>About Me</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <a href="myWork.html" id="btn">
-                        <i class="material-icons prefix"></i>My Work</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <a href="vlog.html" id="btn">
-                        <i class="material-icons prefix"></i>Vlog</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <ul class="sidenav" id="mobile-demo">
-        <li>
-            <a href="index.html">
-                <i class="material-icons prefix">home</i>Home</a>
-        </li>
-        <li class="divider"></li>
-        <li>
-            <a href="aboutMe.html">
-                <i class="material-icons prefix">account_circle</i>About Me</a>
-        </li>
-        <li class="divider"></li>
-        <li>
-            <a href="myWork.html">
-                <i class="material-icons prefix">laptop_mac</i>My Work</a>
-        </li>
-        <li class="divider"></li>
-        <li>
-            <a href="vlog.html">
-                <i class="material-icons prefix">movie</i>Vlog</a>
-        </li>
-    </ul>
-
     <div class="parallax-container">
         <div class="parallax">
             <img src="images/blueSky.jpg">
@@ -83,7 +25,8 @@
                 <div class="collapsible-body">
                     <span><b>The App:</b><a href="https://my-code-card.herokuapp.com/" target="_blank"> Click Me!</a></span>
                     <br>
-                    <span><b>The Code:</b><a href="https://github.com/The-Gummy-Bears/CodeCards" target="_blank"> Click Me!</a></span>
+                    <span><b>The Code:</b><a href="https://github.com/The-Gummy-Bears/CodeCards" target="_blank"> Click
+                            Me!</a></span>
                     <br>
                     <span><b>Technologies:</b> MongoDB, Express, React, Node.js and Material-UI</span>
                 </div>
@@ -91,11 +34,12 @@
             <li>
                 <div class="collapsible-header"><i class="material-icons">code</i>Circle of Friends</div>
                 <div class="collapsible-body">
-                <span><b>The App:</b><a href="https://circle-of-friends.herokuapp.com/" target="_blank"> Click Me!</a></span>
-                <br>
-                <span><b>The Code:</b><a href="https://github.com/The-Real-Tardigrades/Contextual-Geolocation" target="_blank"> Click Me!</a></span>
-                <br>
-                <span><b>Technologies:</b> MySql, Express, Node.js, Javascript/jQuery and Materialize</span>
+                    <span><b>The App:</b><a href="https://circle-of-friends.herokuapp.com/" target="_blank"> Click Me!</a></span>
+                    <br>
+                    <span><b>The Code:</b><a href="https://github.com/The-Real-Tardigrades/Contextual-Geolocation"
+                            target="_blank"> Click Me!</a></span>
+                    <br>
+                    <span><b>Technologies:</b> MySql, Express, Node.js, Javascript/jQuery and Materialize</span>
                 </div>
             </li>
             <li>
@@ -103,7 +47,8 @@
                 <div class="collapsible-body">
                     <span><b>The App:</b><a href="https://rcortez1775.github.io/MyToDoList/" target="_blank"> Click Me!</a></span>
                     <br>
-                    <span><b>The Code:</b><a href="https://github.com/rcortez1775/MyToDoList" target="_blank"> Click Me!</a></span>
+                    <span><b>The Code:</b><a href="https://github.com/rcortez1775/MyToDoList" target="_blank"> Click
+                            Me!</a></span>
                     <br>
                     <span><b>Technologies:</b> Javascript</span>
                 </div>
@@ -121,11 +66,11 @@
             <li>
                 <div class="collapsible-header"><i class="material-icons">code</i>GIPHYMON</div>
                 <div class="collapsible-body">
-                        <span><b>The App:</b><a href="https://rcortez1775.github.io/GIPHYMON/" target="_blank"> Click Me!</a></span>
-                        <br>
-                        <span><b>The Code:</b><a href="https://github.com/rcortez1775/GIPHYMON" target="_blank"> Click Me!</a></span>
-                        <br>
-                        <span><b>Technologies:</b> Javascript and Giphy API</span>
+                    <span><b>The App:</b><a href="https://rcortez1775.github.io/GIPHYMON/" target="_blank"> Click Me!</a></span>
+                    <br>
+                    <span><b>The Code:</b><a href="https://github.com/rcortez1775/GIPHYMON" target="_blank"> Click Me!</a></span>
+                    <br>
+                    <span><b>Technologies:</b> Javascript and Giphy API</span>
                 </div>
             </li>
         </ul>
@@ -177,6 +122,19 @@
         </div>
     </div>
 
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="aboutMe.html">About Me</a>
+            <a href="myWork.html">Experience</a>
+            <a href="vlog.html">Vlog</a>
+        </div>
+    </div>
+    <div class="menu">
+        <div onclick="openNav()"><i class="material-icons">menu</i></div>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
@@ -185,31 +143,3 @@
 </body>
 
 </html>
-
-
-<!-- <div class="carousel">
-            <a class="carousel-item" href="https://my-code-card.herokuapp.com/">
-                <img src="images/mycode.jpg" class="work">
-            </a>
-            <a class="carousel-item" href="https://circle-of-friends.herokuapp.com/">
-                <img src="images/circleof.jpg" class="work">
-            </a>
-            <a class="carousel-item" href="https://github.com/rcortez1775/LIRI-NODE-APP">
-                <img src="images/node.jpg" class="work">
-            </a>
-            <a class="carousel-item" href="https://rocky-road.github.io/project1/">
-                <img src="images/earth.jpg" class="work">
-            </a>
-            <a class="carousel-item" href="https://rcortez1775.github.io/crystal-game/">
-                <img src="images/crystals.jpg" class="work">
-            </a>
-            <a class="carousel-item" href="https://rcortez1775.github.io/">
-                <img src="images/hello.jpg" class="work">
-            </a>
-            <a class="carousel-item" href="https://rcortez1775.github.io/GIPHYMON/">
-                <img src="images/pokeball.jpg" class="work">
-            </a>
-            <a class="carousel-item" href="https://rcortez1775.github.io/TriviaGame/">
-                <img src="images/questionMark.jpg" class="work">
-            </a>
-        </div> -->
