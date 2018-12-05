@@ -60,6 +60,11 @@
     }
 }
 
+.parallax1 {
+    filter: brightness(90%);
+
+}
+
 .collapsible {
     width: 90%;
     margin: auto;
