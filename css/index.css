@@ -70,6 +70,12 @@
     margin-left: 10px;
 }
 
+.mainIntro {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #303030
+}
+
 .me {
     border-radius: 50%;
     width: 225px;
@@ -106,12 +112,6 @@ h3 {
 
 .span {
     display: inline-block;
-}
-
-.mainIntro {
-    text-align: center;
-    font-family: 'Fjalla One', sans-serif;
-    color: #303030
 }
 
 .container {
